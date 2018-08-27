@@ -11,6 +11,15 @@ You can preview what your Markdown file will look like when styles are added by 
 
 ***Q1. The above paragraph and this sentence use markdown in a few ways.  Give a brief description of anything unusual you notice.  Just enter your description on the lines below:***
 
+I notice that things contained in 3 asterisks *** make things bold and italicized.*** Also, i noticed things in single  quotes are slightly highlighted `to draw your attention`.
+1. things numbered are indented and auto numbered
+
+and the pound sign enlarges words, the more you put the
+# smaller
+## they
+### become
+
+
 ### Lists
 
 Create a numbered list of five of your favorite foods in-order from favorite to least favorite in the designated area below. Be sure to include at least two things that are made of multiple ingredients.  
@@ -18,6 +27,17 @@ Create a numbered list of five of your favorite foods in-order from favorite to 
 For each item that has multiple ingredients, create a sub list of a few (2-5) of the ingredients.  Make one of the sub-lists numbered and the other should use bullet points. (It should look like an outline: The ingredients for item n are indented and immediately below item n, but before item n+1)
 
 ***Q2. Create your list here:***
+1. bananas
+1. bacon
+1. pizza
+  * sauce
+  * cheese
+  * pepperoni
+1. pears
+1. turkey sandwich
+  * turkey
+  * provolone
+  * mayo
 
 ### Headings
 
@@ -25,17 +45,35 @@ Headings and sub-headings help separate the content of a document.
 
 ***Q3. Add a new third tier heading to this document named "My Heading" here:***
 
+### My Heading
+
 ### Code
 
 Markdown is often used to document code.  Consequently, it supports embedding code within documents.
 
 ***Q4. Create a code block below and include a Java `for`-loop that prints numbers from 0 to 10. Be sure to indicate that it's Java, which will cause Java keywords to be highlighted (for example, depending on your configuration `for` may be purple in the preview window; `int` may be orange, etc.):***
 
+```javascript
+function forLoopPrint() {
+  for (var i = 0; i < 10; i++) {
+    System.out.println(i);
+  }
+}
+```
+
+
 ## Part 2: What is IoT
 
 This class is about IoT.  [Postscapes](https://www.postscapes.com/internet-of-things-examples/) has a list of examples of IoT.  Pick any three categories (Body, Home City, Industry, etc.) and review any one example of each.
 
 ***Q5.  Based on your reviews, create a table of the top four distinguishing features of IoT applications. One column of the table should have a brief name for the feature (1-4 words) and the second column should have an explanation:***
+
+Name of Feature | Explanation
+------------ | -------------
+BodyGuardian | an FDA cleared wearable sensor system that can remotely read a patient’s biometrics
+Smart outlets | Save money and conserve energy over time by eliminating standby power, measure and record the power usage of any device, and increase its operating lifespan through more efficient use and scheduling
+Key Finder | You can easily track down those lost keys or cell phone in your house using Bluetooth and other wireless technology devices like the Cobra Tag
+AirCasting | a platform for recording, mapping, and sharing health and environmental data using your smartphone. Each AirCasting session lets you capture real-world measurements (Sound levels recorded by their phone microphone; Temperature, humidity, carbon monoxide (CO) and nitrogen dioxide (NO2) gas concentrations), and share it via the CrowdMap with your community.
 
 Search for some additional IoT examples at other sites and find two examples that you find interesting.
 
